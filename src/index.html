@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="styles/main.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>Gloria a deus</h1>
+    <main>
+        <section class="container">
+            <header class="menu">
+                <div class="menu__item">
+                    <h2 class="menu__title-item">Time left</h2>
+                    <div class="menu__second">0</div>
+                </div>
+                <div class="menu__item">
+                    <h2 class="menu__item-title">Your Score</h2>
+                    <div class="menu__second">0</div>
+                </div>
+                <div class="menu__item menu__item--lives">
+                    <img src="./assets/img/player.png" alt="foto jogador">
+                    <div>x3</div>
+                </div>
+            </header>
+            <section class="panel">
+                <div class="panel__row">
+                    <div data-id="1" class="panel__square"></div>
+                    <div data-id="2" class="panel__square"></div>
+                    <div data-id="3" class="panel__square panel__square--enemy"></div>
+                </div>
+                <div class="panel__row">
+                    <div data-id="4" class="panel__square"></div>
+                    <div data-id="5" class="panel__square"></div>
+                    <div data-id="6" class="panel__square"></div>
+                </div>
+                <div class="panel__row">
+                    <div data-id="7" class="panel__square"></div>
+                    <div data-id="8" class="panel__square"></div>
+                    <div data-id="9" class="panel__square"></div>
+                </div>
+
+            </section>
+        </section>
+    </main>
     <script defer src="scripts/engine.js"></script>
 </body>
+
 </html>

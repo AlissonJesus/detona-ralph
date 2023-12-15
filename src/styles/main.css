@@ -1,3 +1,57 @@
 @import "reset.css";
 
+.container {
+    height: 100vh;
+    background-color: bisque;    
+    background-image: url("../assets/img/wall.png");
 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-bottom: 5px solid rgb(231, 206, 64);
+}
+
+.menu__item-title {
+    color: red;
+}
+
+.menu__item--lives {
+    display: flex;
+    align-items: center;
+}
+
+.menu__second {
+    margin-top: 10px;
+}
+
+.panel {
+    padding-top: 1rem;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.panel__row {
+    display: flex;
+    justify-content: center;
+}
+
+.panel__square {
+    width: 150px;
+    height: 150px;
+    background-color: #1aeaa5;
+    border: 1px solid black;
+}
+
+.panel__square--enemy {
+background-image: url("../assets/img/ralph.png");
+background-size: cover;
+}
