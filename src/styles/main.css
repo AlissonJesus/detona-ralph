@@ -54,4 +54,5 @@
 .panel__square--enemy {
 background-image: url("../assets/img/ralph.png");
 background-size: cover;
+cursor: pointer;
 }
